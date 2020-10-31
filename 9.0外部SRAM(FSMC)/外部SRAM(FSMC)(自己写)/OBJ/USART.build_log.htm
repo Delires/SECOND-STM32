@@ -1,0 +1,73 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.12.0.0
+Copyright (C) 2014 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: base last, many, LIC=1WS9U-SWXLJ-22GL4-FI5NZ-RY7SR-FQVXU
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.12.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 (build 41)
+Assembler:       Armasm.exe V5.05 (build 41)
+Linker/Locator:  ArmLink.exe V5.05 (build 41)
+Library Manager: ArmAr.exe V5.05 (build 41)
+Hex Converter:   FromElf.exe V5.05 (build 41)
+CPU DLL:         SARMCM3.DLL V5.12.0.0
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+    Target DLL: STLink\ST-LINKIII-KEIL_SWO.dll
+Dialog DLL:      TARMSTM.DLL V1.64.0.0
+ 
+<h2>Project:</h2>
+E:\1.STM32\STM32\1.1STM32file_2\9.0外部SRAM(FSMC)\外部SRAM(FSMC)(自己写)\USER\USART.uvprojx
+Project File Date:  10/26/2020
+
+<h2>Output:</h2>
+Build target 'USART'
+compiling main.c...
+compiling stm32f10x_it.c...
+compiling system_stm32f10x.c...
+compiling led.c...
+compiling key.c...
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+compiling fsmc.c...
+compiling misc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_fsmc.c...
+linking...
+Program Size: Code=4816 RO-data=336 RW-data=56 ZI-data=1832  
+FromELF: creating hex file...
+"..\OBJ\USART.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  E:\1.STM32\STM32\1.1STM32file_2\9.0外部SRAM(FSMC)\外部SRAM(FSMC)(自己写)\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
+t  (      FSMC_NORSRAMInitTypeDef *  FSMC_NORSRAMInitStruct )   
+..\SYSTEM\fsmc\fsmc.c(8): error:  #147: declaration is incompatible with "void FSMC_NORSRAMInit(FSMC_NORSRAMInitTypeDef *)" (declared at line 699 of "..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h")
+   FSMC_NORSRAMInit  (      FSMC_NORSRAMInitTypeDef *  FSMC_NORSRAMInitStruct )   
+..\SYSTEM\fsmc\fsmc.c(10): error: At end of source:  #65: expected a ";"
+..\SYSTEM\fsmc\fsmc.c: 1 warning, 6 errors
+compiling misc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_fsmc.c...
+"..\OBJ\USART.axf" - 6 Error(s), 1 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  E:\1.STM32\STM32\1.1STM32file_2\9.0外部SRAM(FSMC)\外部SRAM(FSMC)(自己写)\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.

@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS -I..\..\User -I..\..\Libraries\FWlib\inc -I..\..\User\FATFS -I..\..\User\FATFS\option
+-I E:\1.STM32\STM32\1.1STM32file_2\6.1Flash的文件系统Fatfs\1.程序\3.0官方\2-FatFs文件系统常用函数测试\Project\RVMDK（uv5）\RTE
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+-I C:\Keil_v5\ARM\CMSIS\Include
+-DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o ..\..\output\main.o --omf_browse ..\..\output\main.crf --depend ..\..\output\main.d "..\..\User\main.c"
